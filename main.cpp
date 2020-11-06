@@ -101,15 +101,16 @@ if(ika!=43){
  cout << "Et ole 43" 
 <<endl;}
 if(ika==43){
- cout << "Olet 43" 
-<<endl;}
+ cout << "Olet 43" << endl; 
+cout<<"-----------------------------------------"<<endl; }
 else{
-  cout<< "Olet yli 43"
-<<endl <<endl;
+  cout<< "Olet yli 43" 
+<<endl;
 }
 
    int i=1;
-   while(i<5){
+   while (i<5) 
+   {
      cout<< "While loopin kierros nro: " << i << endl;
      i=i+1;
    }
@@ -117,9 +118,9 @@ else{
    for(int i=1; i<5; i++){
    cout<< "For loopin kierros nro: " << i << endl;  
    }
-   cout<<endl;
-   kontrollinSiirtoEsimerkki();
+   //cout<<endl;
+   //kontrollinSiirtoEsimerkki();
   
-   kontrollinSiirtoParametrilla("Mira");
+   //kontrollinSiirtoParametrilla("Mira");
  
 }
