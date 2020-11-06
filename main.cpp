@@ -12,6 +12,12 @@ kommentteja, 2. rivi
 
 using namespace std;
 
+void kontrollinSiirtoEsimerkki(){
+ cout<<"Kävin Täällä"<<endl;
+}
+void kontrollinSiirtoParametrilla(string etunimi){
+ cout<<etunimi;
+}
 int main()
 
 { 
@@ -118,9 +124,10 @@ else{
    for(int i=1; i<5; i++){
    cout<< "For loopin kierros nro: " << i << endl;  
    }
-   //cout<<endl;
-   //kontrollinSiirtoEsimerkki();
+   cout<<endl;
+   kontrollinSiirtoEsimerkki();
   
-   //kontrollinSiirtoParametrilla("Mira");
+   kontrollinSiirtoParametrilla("Leevi");
  
+
 }
